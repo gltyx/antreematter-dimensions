@@ -9,7 +9,7 @@ function resetPoints() {
 }
 
 let modInfo = {
-	name: "Antreematter Dimensions",
+	name: "反物质维度树 - Antreematter Dimensions",
 	id: "antreematter",
 	author: "jasperfr",
 	pointsName: "antimatter",
