@@ -1,0 +1,38 @@
+span.g {
+    color:#d676d6;
+    font-size:20px;
+    font-weight:bold;
+    text-shadow: 0 0 4px rgba(255,255,255,0.3);
+}
+
+@-webkit-keyframes hydro {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@-moz-keyframes hydro {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@keyframes hydro {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+
+@-webkit-keyframes fire {
+    0%{background-position:50% 30%}
+    50%{background-position:50% 90%}
+    100%{background-position:50% 30%}
+}
+@-moz-keyframes fire {
+    0%{background-position:50% 30%}
+    50%{background-position:50% 90%}
+    100%{background-position:50% 30%}
+}
+@keyframes fire {
+    0%{background-position:50% 30%}
+    50%{background-position:50% 90%}
+    100%{background-position:50% 30%}
+}

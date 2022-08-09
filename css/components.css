@@ -1,0 +1,229 @@
+.achievement > span {
+	display: none;
+}
+
+.ab-toggle {
+	z-index: 100;
+}
+
+.upg {
+	min-height: 20px;
+	height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	border: 2px solid;
+	font-size: 10px;
+	overflow: visible;
+	border-color: #d05050;
+	font-size: 10px;
+	position:relative;
+	background-color: rgb(31, 31, 31) !important;
+	color: white !important;
+}
+
+.upg.bought {
+	border-color: #4ABB5F !important;
+	background-color: #357541 !important;
+}
+
+.achievement {
+	height: 64px;
+	width: 64px;
+	border-radius: 0;
+	border: 2px solid;
+	border-color: rgb(59, 59, 59);
+	font-size: 10px;
+	color: white;
+	text-shadow: 0 0 2px #000000;
+	background-image: url('../resources/achievements.png');
+}
+.achievement:hover {
+	box-shadow: 0 0 10px var(--points);
+	z-index: 7;
+}
+
+.achievement.bought::after {
+	content: '';
+	display: block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+.buyable {
+	height: 30px;
+	width: 200px;
+	border-radius: 2px;
+	border: 2px solid;
+	margin: 1px;
+	border-color: #d05050;
+	font-size: 10px;
+	position:relative;
+	background-color: rgb(31, 31, 31) !important;
+	color: white !important;
+}
+
+.buyable.can {
+	border-color: #4ABB5F !important;
+}
+
+.milestone {
+	width: 100%;
+	min-width: 350px;
+	padding: 5px 10px;
+	height: 50px;
+	border: 2px solid;
+	border-radius: 4px;
+	border-color: transparent;
+	background-color: rgb(31, 31, 31) !important;
+	color: white;
+	font-size: 12px;
+}
+
+.milestoneDone {
+	width: 100%;
+	min-width: 350px;
+	padding: 5px 10px;
+
+	height: 50px;
+	border: 2px solid;
+	border-radius: 2px;
+	border-color: #4ABB5F;
+	background-color: #357541;
+	color: white;
+	font-size: 12px;
+}
+
+.challenge {
+	background-color: #222;
+	position: relative;
+	color: white;
+	width: 300px;
+	height: 300px;
+	font-size: 15px;
+	padding: 10pt;
+	position: relative;
+	margin: 20pt;
+}
+
+.challenge::after {
+	content: "";
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	z-index: -1;
+	background-image: repeating-linear-gradient(-45deg, rgb(118, 58, 115), orange 25%, rgb(118, 58, 115) 50%);
+	background-size: 200% 200%;
+	animation: movebg 2500ms linear infinite;
+	border-radius: 4px;
+}
+
+@keyframes movebg {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+.challenge.done::after {
+	background-image: repeating-linear-gradient(-45deg, rgb(64, 158, 136), lime 25%, rgb(64, 158, 136) 50%);
+}
+
+.challenge.canComplete {
+	background-color: #222;
+}
+
+/* Infoboxes */
+.story {
+    width: 600px;
+    max-width: 95%;
+    border-bottom: solid 4px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.story-title {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+    border-radius: 8px 8px 0 0;
+}
+
+.story-toggle {
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    pointer-events: none;
+    width: 1em;
+    display: inline-block;
+}
+
+.story-text {
+	padding: 2px;
+    border: solid 4px;
+    border-color: inherit;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    margin-bottom: -2px;
+}
+
+
+/* Tiles are gridables */
+.tile {
+	height: 80px;
+	width: 80px;
+	border-radius: 15%;
+	border: 2px solid;
+	border-color: rgba(0, 0, 0, 0.125);
+	font-size: 10px;
+	overflow: visible;
+}
+
+.tile.can:hover {
+	box-shadow: 0 0 10px var(--points);
+	transform: scale(1.1, 1.1);
+	z-index: 7;
+}
+
+.upgBig {
+	height: 200px;
+	width: 200px;
+	border-radius: 25%;
+	border: 2px solid;
+	border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* Used for respec button and similar */
+.longUpg {
+	height: 50px;
+	width: 120px;
+	background: #222 !important;
+	color: white;
+	border: 2px solid orange;
+	font-size: 12pt;
+}
+
+.smallUpg {
+	height: 40px;
+	width: 40px;
+	border-radius: 25%;
+	border: 2px solid;
+	border-color: rgba(0, 0, 0, 0.125);
+}
+
+.upgCol {
+	margin: 0;
+	width: 100%;
+}

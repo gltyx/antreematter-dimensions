@@ -1,0 +1,148 @@
+.barBase {
+	overflow: hidden;
+	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+	display:table
+}
+
+.barBorder {
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: var(--color);
+	overflow: hidden;
+	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+	margin:0
+}
+
+.overlayTextContainer {
+	z-index: 3;
+	border-radius: 10px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	position: absolute;
+}
+
+.fill {
+	background-color: var(--color);
+	z-index:2;
+    position: absolute;
+	overflow: hidden;
+	margin-left: -0.5px;
+	transition-duration: 0.2s;
+
+}
+
+.overlayText {
+	z-index: 6;
+}
+
+.upgTable bd {
+	font-size: 20px;
+	color: #63b8ff;
+	font-weight: bold;
+}
+
+.upgTable tt {
+	font-size: 16px;
+}
+
+.upgTable ts {
+	font-size: 20px;
+	color: #63b8ff;
+	text-shadow: 0 0 8px white;
+	font-weight: bold;
+}
+
+.upgTable sc {
+	font-size: 20px;
+	color: #992c2c;
+	text-shadow: 0 0 8px white;
+	font-weight: bold;
+}
+
+.upgTable gp {
+	font-size: 20px;
+	color: #dd3ffc;
+	font-weight: bold;
+}
+
+.upgTable cash {
+	font-size: 20px;
+	color: lime;
+	font-weight: bold;
+}
+
+.upgTable d {
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+	text-shadow: 0 0 8px rgb(55, 55, 55);
+}
+
+.lootbox {
+	display: block;
+	width: 200px;
+	border: 4px solid white;
+	margin: 4px;
+	border-radius: 2px;
+	padding: 20px 0;
+	transition: border-color 0ms;
+	height: 30px;
+}
+.lootbox:not(.lootbox-c) {
+	opacity: 0.5;
+}
+.lootbox.lootbox-c {
+	transform:scale(120%);
+}
+.lootbox.lootbox-cs, .lootbox.lootbox-nc {
+	transform:scale(110%);
+}
+
+@keyframes rainbow {
+	100%,0%{
+		color: rgb(255,0,0);
+	}
+	8%{
+		color: rgb(255,127,0);
+	}
+	16%{
+		color: rgb(255,255,0);
+	}
+	25%{
+		color: rgb(127,255,0);
+	}
+	33%{
+		color: rgb(0,255,0);
+	}
+	41%{
+		color: rgb(0,255,127);
+	}
+	50%{
+		color: rgb(0,255,255);
+	}
+	58%{
+		color: rgb(0,127,255);
+	}
+	66%{
+		color: rgb(0,0,255);
+	}
+	75%{
+		color: rgb(127,0,255);
+	}
+	83%{
+		color: rgb(255,0,255);
+	}
+	91%{
+		color: rgb(255,0,127);
+	}
+}
+
+.upgTable rainbow {
+	font-size: 40px;
+	font-weight: bold;
+	animation: rainbow 2.5s linear;
+	animation-iteration-count: infinite;
+
+}
