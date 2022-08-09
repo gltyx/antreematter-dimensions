@@ -170,7 +170,7 @@ var cnItems = {
     "the scaling nerf based on the log100 of your current multiplier.": "基于当前乘数的 log100 的缩放 nerf。",
     "The Ultimate Challenge": "终极挑战",
     "There is exponentially rising matter which divides the power of all your Antimatter Dimensions.": "有呈指数增长的物质将你们所有反物质维度的力量分开。",
-    "There is raising decrementy that divides ALL production multipliers. Each challenge completion nerfs this raise. When Decrementy reaches 1.79e308, it will explode exponentially. Galaxy points are gained": "所有生产乘数都在增加递减量。每个挑战完成都会削弱这次加薪。当 Decrementy 达到 1.79e308 时，会呈指数级爆发。获得银河点数",
+    "There is raising decrementy that divides ALL production multipliers. Each challenge completion nerfs this raise. When Decrementy reaches 1.79e308, it will explode exponentially. Galaxy points are gained": "所有生产乘数都在增加递减量。每个挑战完成都会削弱这次加薪。当 递减 达到 1.79e308 时，会呈指数级爆发。获得银河点数",
     "times.": "次。",
     "To be continued...": "未完待续...",
     "True AD": "真正的广告",
