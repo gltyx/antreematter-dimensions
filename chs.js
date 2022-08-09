@@ -277,7 +277,7 @@ var cnItems = {
     "The universe has exploded due to excess matter.": "宇宙因物质过剩而爆炸。",
     "Exit Challenge": "退出挑战",
     "Restart Challenge": "重新挑战",
-    "": "",
+    "Decrementy": "递减",
     "": "",
     "": "",
     "": "",
