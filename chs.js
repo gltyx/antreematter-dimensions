@@ -111,7 +111,7 @@ var cnItems = {
     "Professional Speedrunner": "专业速跑者",
     "Reach 1e512 to unlock Galaxy Points.": "到达 1e512 以解锁银河点数。",
     "Requires 20 4th Dimensions.": "需要 20 个第四维度。",
-    "Reset Booster Dimensions and Antimatter Dimensions for GP.": "重置 GP 的助推器尺寸和反物质尺寸。",
+    "Reset Booster Dimensions and Antimatter Dimensions for GP.": "重置 GP 的助推器维度和反物质维度。",
     "Reset to gain a x2.0 boost on 1st -> 2nd Dimensions.": "重置以在 1-> 2nd 维度上获得 x2.0 提升。",
     "Skip to Booster Layer": "跳到助推器层",
     "Skip to Galaxy Layer": "跳到银河层",
