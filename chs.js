@@ -82,7 +82,7 @@ var cnItems = {
     "Get your booster gain per second to 0.000 BP/s. Reward: Booster gain minimum is always 0.001 BPS.": "将您的助推器每秒增益提高到 0.000 BP/s。奖励：助推器增益最小值始终为 0.001 BPS。",
     "Get your first iron (Fe) atom.": "得到你的第一个铁 (Fe) 原子。",
     "Get your Star Power to >= ^2 (outside of the Boostless challenge). Reward: Additional +1 to Star Power.": "让你的 Star Power >= ^2（在 Boostless 挑战之外）。奖励：额外+1星力。",
-    "GP is based on your antimatter amount. log10(AM/1e512)": "GP 是基于你的反物质数量。日志10(AM/1e512)",
+    "GP is based on your antimatter amount. log10(AM/1e512)": "GP 是基于你的反物质数量。log10(AM/1e512)",
     "HAHA FUNNY AD REFERENCE LAUGH": "哈哈有趣的广告参考笑声",
     "Half Life 3 CONFIRMED!": "半条命3确认！",
     "Have 1 billion Booster Points. Reward: All Antimatter Dimensions are 10% more effective.": "拥有 1 万亿助推器点数。奖励：所有反物质维度的效率提高 10%。",
