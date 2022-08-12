@@ -89,7 +89,7 @@ var cnItems = {
     "Have 1.79e308 Antimatter.": "拥有 1.79e308 反物质。",
     "Have 1.79e308 matter.": "有 1.79e308 个垫子。",
     "Have all the Autobuyer upgrades.": "拥有所有 自动购买器 升级。",
-    "Have all the Shift upgrades from Booster Dimensions.": "从 Booster Dimensions 获得所有 Shift 升级。",
+    "Have all the Shift upgrades from Booster Dimensions.": "从 助推器维度 获得所有 偏移 升级。",
     "Have exactly 99 8th Animatter Dimensions. Reward: 8th Dimensions are 10% stronger.": "正好有 99 个第 8 动画维度。奖励：第 8 维度增强 10%。",
     "I hate this mechanic": "我讨厌这个机械师",
     "I still hate this mechanic": "我还是讨厌这个机械师",
