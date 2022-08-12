@@ -236,7 +236,7 @@ var cnItems = {
     "Gain x2 more IP.": "获得 x2 更多 IP。",
     "Galaxial shifts reset nothing and unlock 2 more Galaxy Upgrades.": "星系偏移不会重置任何内容并解锁另外 2 个星系升级。",
     "Galaxies can produce atoms beyond iron.": "星系可以产生铁以外的原子。",
-    "GP generation starts at 1e100 AM.": "GP 生成从凌晨 1 点 100 分开始。",
+    "GP generation starts at 1e100 AM.": "GP 发生器开始于 1e100 反物质。",
     "If it reaches 1.79e308,": "如果达到 1.79e308，",
     "Infinity Studies": "无限研究",
     "instantly.": "即刻。",
