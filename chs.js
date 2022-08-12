@@ -424,7 +424,7 @@ var cnPrefix = {
     "Antimatter Galaxies ": "反物质星系 ",
     "Dimensional Boost ": "维度提升 ",
     "Increase tickspeed by ": "将Tick速度提高 ",
-    "": "",
+    "Bought (Infinity Study ": "已购买（无限研究 ",
     "": "",
     "": "",
     "": "",
